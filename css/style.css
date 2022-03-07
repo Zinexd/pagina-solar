@@ -23,8 +23,7 @@ body {
   font-size: 0.938rem;
   background: linear-gradient(#fff);
   color: rgb(17, 17, 17);
-  background: url('../img/fondo2.png') #000;
-  height: 500px;
+  background: url('../img/fondo2.png');
 }
 
 h1 {
