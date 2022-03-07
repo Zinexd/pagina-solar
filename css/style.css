@@ -24,6 +24,7 @@ body {
   background: linear-gradient(#fff);
   color: rgb(17, 17, 17);
   background-image:url(/img/fondo2.png);
+  height: 500px;
 }
 
 h1 {
