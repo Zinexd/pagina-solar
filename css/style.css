@@ -2,7 +2,7 @@
 @font-face {
     font-family: bouncy;
     src: url('../font/BOUNCY.ttf') format('truetype');
-}
+};
 /*base*/
 * {
     
