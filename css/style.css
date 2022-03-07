@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
 @font-face {
     font-family: bouncy;
-    src: url(./font/BOUNCY.ttf) format('truetype');
+    src: url(../font/BOUNCY.ttf) format('truetype');
 }
 /*base*/
 * {
