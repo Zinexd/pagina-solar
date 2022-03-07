@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
 @font-face {
     font-family: bouncy;
-    src: url(../font/BOUNCY.ttf) format('truetype');
+    src: url(./font/BOUNCY.ttf) format('truetype');
 }
 /*base*/
 * {
@@ -23,7 +23,7 @@ body {
   font-size: 0.938rem;
   background: linear-gradient(#fff);
   color: rgb(17, 17, 17);
-  background-image:url('../img/fondo2.png') #000;
+  background-image:url('./img/fondo2.png') #000;
   height: 500px;
 }
 
