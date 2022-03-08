@@ -2,7 +2,7 @@
 @font-face {
     font-family: bouncy;
     src: url(../font/BOUNCY.ttf) format('truetype');
-};
+}
 /*base*/
 * {
     
@@ -16,28 +16,34 @@ html {
 }
 
 body {
+ 
   padding: 0;
   margin: 0;
   margin: 3.5rem 0 0 0;
   font-family: "Poppins", sans-serif;
   font-size: 0.938rem;
-  background: linear-gradient(#fff);
-  color: rgb(17, 17, 17);
-  background: url('../img/fondo2.png');
+  /* background-color: linear-gradient(90deg, #183da4 0%, #08174a 50%); */
+  background-image:url(../img/fondo2.png);
 }
 
 h1 {
-    color: rgb(19, 17, 17);
-    font-weight: 600;
+    /* color: linear-gradient(90deg, #183da4 0%, #08174a 50%); */
+    font-weight: 400;
     font-family: bouncy;
+    font-size: small;
 }
 
 
 h2,
 h3,
 h4 {
-  color: #fff;
+  color: linear-gradient(90deg, #183da4 0%, #08174a 50%);
+  color: rgb(41, 6, 99);
   font-weight: 600;
+}
+
+h3{
+    color: black
 }
 
 ul {
@@ -76,15 +82,7 @@ button {
   margin-bottom: 2rem;
   text-align: center;
 }
-/* .fondo{
-    width: 100%;
-    height: 100vh;;
-    background-image: url(/img/solar-panels-gc9b5c0e0d_1920.jpg);
-    opacity: 100%;
-    background-size: cover;
-    background-position: center;
-    position:static;
-} */
+
 .container {
   max-width: 968px;
   margin-left: 1.5rem;
@@ -222,18 +220,23 @@ button {
 }
 
 .hometitle {
-  font-size: 9rem;
+  background: linear-gradient(90deg, #183da4 0%, #08174a 50%);
+  font-size: 7rem;
   font-weight: 900;
   line-height: 100%;
-  margin-bottom: 1rem;
+  /* margin-bottom: 50%; */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 
 .homedes {
-  margin-bottom: 1rem;
-  color:rgb(0, 0, 0);
+  /* margin-bottom: 50%; */
+  background: linear-gradient(90deg, #183da4 0%, #08174a 50%);
   opacity: 100%;
   font-weight: 750;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .homebut {
@@ -361,6 +364,7 @@ button {
 }
 
 .productsubtitle {
+    color: white;
     font-size: .75rem;
     margin-bottom: .5rem;
 }
@@ -545,13 +549,22 @@ button {
 /*FOOTER*/
 
 .footer {
+
+    width: 100%;
+    background: linear-gradient(90deg, #183da4 0%, #08174a 50%);
     position: relative;
     overflow: hidden;
+    
+
 }
 
 .footercontainer {
-    row-gap: 2rem;
+    /* row-gap: 5rem; */
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    
 }
+
 
 .footerL {
     display: flex;
@@ -590,7 +603,7 @@ button {
 
 .footertitle {
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: .45rem;
 }
 
 .footerlinks {
