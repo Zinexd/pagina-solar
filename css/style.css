@@ -28,9 +28,9 @@ body {
 
 h1 {
     /* color: linear-gradient(90deg, #183da4 0%, #08174a 50%); */
-    font-weight: 400;
+    /* font-weight: 400; */
     font-family: bouncy;
-    font-size: small;
+    font-size: xx-small;
 }
 
 
@@ -221,8 +221,8 @@ button {
 
 .hometitle {
   background: linear-gradient(90deg, #183da4 0%, #08174a 50%);
-  font-size: 7rem;
-  font-weight: 900;
+  font-size: 6.5rem;
+  font-weight: 400;
   line-height: 100%;
   /* margin-bottom: 50%; */
   -webkit-text-fill-color: transparent;
@@ -234,7 +234,7 @@ button {
   /* margin-bottom: 50%; */
   background: linear-gradient(90deg, #183da4 0%, #08174a 50%);
   opacity: 100%;
-  font-weight: 750;
+  font-weight: 450;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -560,7 +560,6 @@ button {
 
 .footercontainer {
     /* row-gap: 5rem; */
-    grid-auto-columns: auto;
     grid-auto-rows: auto;
     
 }
