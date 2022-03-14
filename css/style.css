@@ -684,7 +684,7 @@ button {
 /*RESPONSIVE */
 
 
-@media (max-width: 415px) {
+@media (max-width: 450px) {
     .navL{
         font-size: 10.5px;
     }
