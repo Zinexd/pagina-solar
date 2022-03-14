@@ -141,7 +141,7 @@ button {
   cursor: pointer;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 850px) {
   .navM {
     position: fixed;
     width: 100%;
@@ -240,7 +240,8 @@ button {
 }
 
 .homebut {
-  display: flex;
+  display:flex;
+
 }
 
 .homebut a {
@@ -272,18 +273,32 @@ button {
 
 /*BUTTONS*/
 .button {
-    display: inline-block;
-    background-color: #3678ff;
+    display: content;
+    background-color: #0b5cfd;
     color: #fff;
-    padding: 1rem 1.75rem;
-    border-radius: .5rem;
-    font-weight: 500;
+    padding: 10px 24px;
+    border-radius: 5%;
+    border: 2px solid #01175f;
+    transition-duration: 0.4s;
+    white-space: normal;
+    font-size: inherit;
+    /* width: 200px; */
+    
+    /* font-weight: 500; */
+    /* font-size: 11px; */
     transition: .3s;
+    
 }
 
 .button:hover {
-    background-color: #0557fc;
+    background-color: #01175f;
+    box-shadow: 12px 0 16px 0 rgba(0,0,0,0.24), 9px 0 25px 0 rgba(0,0,0,0.19);
 }
+.button:active {
+    background-color: #334feb;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 
 .buttonicon {
@@ -669,7 +684,10 @@ button {
 /*RESPONSIVE */
 
 
-@media (max-width: 320px) {
+@media (max-width: 415px) {
+    .navL{
+        font-size: 10.5px;
+    }
     .container {
         margin-left: 1rem;
         margin-right: 1rem;
@@ -709,7 +727,7 @@ button {
 
 }
 
-@media (min-width: 767px) {
+@media (min-width: 850px) {
     body {
         margin: 0;
         
