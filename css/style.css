@@ -49,10 +49,16 @@ h4 {
   color: rgb(41, 6, 99);
   font-weight: 600;
 }
-
 h3{
     color: black
 }
+h4{
+    color:white;
+}
+h5{
+    font-weight: 400;
+}
+
 
 ul {
   list-style: none;
@@ -258,6 +264,16 @@ button {
   margin-left: 10px;
 }
 
+.presupuesto{
+    display:flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* .presupuesto a{
+    margin-top: 50px;
+    margin-left: 40px;
+} */
 .swiper-pagination {
   position: initial;
   margin-top: 1rem;
@@ -318,7 +334,7 @@ button {
     background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
     padding: 11px 30px;
     transition-duration: 0.4s;
-    border: 0;
+    border: 2px solid #b3f303;
     border-radius: 5%;
     transition: .3s;
 
@@ -469,10 +485,10 @@ button {
 }
 .discountdata {
     text-align: center;
-
 }
 
 .discounttitle {
+    color: aliceblue;
     font-size: 1.25rem;
     margin-bottom: 2rem;
 }
@@ -661,6 +677,7 @@ button {
 }
 
 .footertitle {
+    margin-top: 15px;
     font-size: 1rem;
     margin-bottom: .45rem;
 }
@@ -796,7 +813,7 @@ button {
         font-weight: initial;
     }
     .homecont {
-        padding: 8rem 0 2rem;
+        padding: 8rem 0 4rem;
         grid-template-columns: repeat(2, 1fr);
         gap: 4rem;
     }
